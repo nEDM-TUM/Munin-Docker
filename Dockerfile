@@ -1,4 +1,4 @@
-FROM jekil/docker-munin-server:latest 
+FROM jekil/docker-munin-server:latest
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   libwww-perl \
